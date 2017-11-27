@@ -1,0 +1,97 @@
+html {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+
+header {
+  display: inline;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+}
+
+header img {
+  float: left;
+  height: 50px;
+  margin-left: 10px;
+}
+
+header div {
+  float: right;
+  padding: 10px;
+}
+
+header div span {
+  text-decoration: underline;
+}
+
+.mission {
+  /*position: relative;*/
+}
+
+.mission img {
+  height: 700px;
+  width: 1200px;
+}
+
+.mission .text {
+  background-color: black;
+  z-index: 10;
+  /*position: absolute;
+  top: 300px;*/
+}
+
+.tea .images {
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 1000px;
+}
+
+.tea img {
+  height: 200px;
+  width: 300px;
+  padding: 10px auto;
+}
+
+.location {
+  /*position: relative;*/
+}
+
+.locations img {
+  width: 1200px;
+  height: 500px;
+}
+
+.locations h2 {
+  /*position: absolute;
+  left: 400px;*/
+}
+
+.locations .text {
+  /*position: absolute;*/
+  display: inline-flex;
+  justify-content: center;
+  margin: 15px 40px;
+}
+
+.locations .block {
+  width: 300px;
+  background-color: black;
+}
+
+.locations .block .special {
+  opacity: 1 !important;
+}
+
+.end {
+  height: 200px;
+}
+
+footer {
+  text-align: left;
+  margin-left: 20px;
+}
